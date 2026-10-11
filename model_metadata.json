@@ -1,0 +1,30 @@
+{
+    "model_name": "Fourier + ARIMA",
+    "arima_order": [
+        2,
+        0,
+        1
+    ],
+    "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "fourier_period_days": 365.25,
+    "fourier_harmonics": 2,
+    "fourier_feature_order": [
+        "sin_1",
+        "cos_1",
+        "sin_2",
+        "cos_2"
+    ],
+    "fourier_epoch": "1981-01-01",
+    "training_observations": 3650,
+    "training_start": "1981-01-01",
+    "training_end": "1990-12-31",
+    "converged": true,
+    "aic": 16667.34466876708,
+    "statsmodels_version": "0.15.0",
+    "pandas_version": "3.0.6"
+}
